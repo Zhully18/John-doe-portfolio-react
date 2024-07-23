@@ -51,7 +51,19 @@
     position: absolute;
     top: 0;
     left: 0;
+    animation: float-icon 3s ease-in-out infinite;
 }
+@keyframes float-icon{
+    0%{
+      transform: translateY(0) ;
+    }
+    50%{
+      transform: translateY(3rem);
+    }
+    100%{
+      transform: translateY(0);
+    }
+  }
 .icons .one {
     position: absolute;
     font-size: 26px;
@@ -64,14 +76,38 @@
     font-size: 26px;
     margin-left: -120px;
     margin-top: 300px;
+    animation: float-secondicon 4s ease-in-out infinite;
 }
+@keyframes float-secondicon{
+    0%{
+      transform: translateX(0) ;
+    }
+    50%{
+      transform: translateX(-3rem);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
 .icons .three{
     margin-top: 200px;
     position: absolute;
     margin-left: 600px;
     font-size: 30px;
     color: green;
+    animation: float-thirdicon 4s ease-in-out infinite;
 }
+@keyframes float-thirdicon{
+    0%{
+      transform: translateX(0) ;
+    }
+    50%{
+      transform: translateX(-3rem);
+    }
+    100%{
+      transform: translateX(0);
+    }
+  }
 .icons .four{
     position: absolute;
     margin-top: 400px;
