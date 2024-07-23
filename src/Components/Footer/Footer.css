@@ -1,0 +1,19 @@
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 100px;
+    margin-top: 50px;
+}
+
+.footer_icon{
+    font-size: 30px;
+    color: #008080;
+    margin-left: 20px;
+}
+.copy{
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* background: #28282B; */
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}

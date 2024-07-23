@@ -1,0 +1,94 @@
+.hero{
+    display: grid;
+    width: 100%;
+    place-items: center;
+    height: 122vh;
+    /* background: #f3bd94; */
+    margin-top: -120px;
+}
+.hero_content{
+    position: absolute;
+    z-index: 1;
+    margin-top: -400px;
+}
+.hero_content h1, h2{
+    text-align: center;
+    font-size: 40px;
+}
+.hero_content p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+.hero_content button{
+    margin-top: 20px;
+    padding: 1rem 3rem;
+    border: none;
+    background: #000;
+    color: #fff;
+    font-weight: 600;
+    margin-left: 150px;
+}
+
+.hero_content button:hover{
+    background: #edc2a2;
+    box-shadow: 6px 6px #555;
+    color: #000;
+}
+.hero_img{
+    position: relative;
+    width: 550px;
+    height: 850px;
+    background: #008080;
+    /* background: #e4e3e3; */
+    margin-top: -30px;
+}
+.hero_img img{
+    width: 600px;
+    height: 500px;
+    margin-top: 350px;
+}
+.icons{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.icons .one {
+    position: absolute;
+    font-size: 26px;
+    color: green;
+    margin-left: -250px;
+    margin-top: 100px;
+}
+.icons .two{
+    position: absolute;
+    font-size: 26px;
+    margin-left: -120px;
+    margin-top: 300px;
+}
+.icons .three{
+    margin-top: 200px;
+    position: absolute;
+    margin-left: 600px;
+    font-size: 30px;
+    color: green;
+}
+.icons .four{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 650px;
+    font-size: 26px;
+}
+.icons .five{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: -280px;
+    font-size: 26px;
+    color: #008080;
+}
+.icons .six{
+    position: absolute;
+    font-size: 26px;
+    margin-left: 700px;
+    margin-top: 30px;
+    color: #008080;
+}

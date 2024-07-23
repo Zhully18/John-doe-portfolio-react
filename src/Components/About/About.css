@@ -1,0 +1,57 @@
+.about{
+    display: flex;
+    padding-inline: 100px;
+    margin-top: 30px;
+    background: #f9f9f9;
+}
+.about_left img{
+    width: 500px;
+    height: 500px;
+}
+.about_right {
+    margin-top: 60px;
+}
+.about_right h2{
+    text-align: start;
+}
+.about_right h3{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.about_right p{
+    font-size: 20px;
+}
+/* .about_right .skills{
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.skill{
+    padding: 22px;
+    border: 1px solid #008080;
+    border-radius: 10px;
+}
+.skill h4{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.icon{
+    font-size: 50px;
+    margin-top: 10px;
+    color: #008080;
+} */
+.about_right button{
+    margin-top: 20px;
+    padding: 1rem 3rem;
+    border: none;
+    background: #008080;
+    color: #fff;
+    font-weight: 600;
+}
+
+.about_right button:hover{
+    background: #edc2a2;
+    box-shadow: 6px 6px #555;
+    color: #000;
+}
